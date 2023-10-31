@@ -1,0 +1,44 @@
+.PassportServices {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .PassportServices h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .PassportServices p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .PassportServices img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .PassportServices a {
+    color: #1E49A6;
+    text-decoration: none;
+  }
+  
+  .PassportServices a:hover {
+    text-decoration: underline;
+  }
+  
+  .PassportServices ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .PassportServices li {
+    margin-bottom: 10px;
+  }
+  
+  .PassportServices section {
+    margin-bottom: 40px;
+  }
+  

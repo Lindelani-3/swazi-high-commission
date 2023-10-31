@@ -1,0 +1,43 @@
+.ConsularServices {
+  text-align: center;
+  padding: 20px;
+}
+
+.ConsularServices h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.ConsularServices p {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ConsularServices img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ConsularServices a {
+  color: #1E49A6;
+  text-decoration: none;
+}
+
+.ConsularServices a:hover {
+  text-decoration: underline;
+}
+
+.ConsularServices ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ConsularServices li {
+  margin-bottom: 10px;
+}
+
+.ConsularServices section {
+  margin-bottom: 40px;
+}
