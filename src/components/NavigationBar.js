@@ -8,7 +8,7 @@ function NavigationBar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <div className="navbar">
+    <div className="navbar" role="navigation">
       <div className="logo">
         <Link to="/">
           <img src={logoImage} alt="Swaziland High Commission Logo" />
