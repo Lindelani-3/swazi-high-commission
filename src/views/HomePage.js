@@ -1,5 +1,6 @@
 import React from 'react';
 import './HomePage.css';
+import SidePanel from '../components/SidePanel';
 import homeImage from './content/valley-logo_cleanup.png';
 
 
@@ -16,6 +17,7 @@ const HomePage = () => {
           Explore our website to learn more about Eswatini, find information on consular services, and discover the vibrant culture and rich history of our beautiful kingdom.
         </p>
       </div>
+      <SidePanel />
     </div>
   );
 };
