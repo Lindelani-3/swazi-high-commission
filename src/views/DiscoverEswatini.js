@@ -4,7 +4,7 @@ import SidePanel from '../components/SidePanel';
 import discEswImage from './content/incwala.png';
 
 
-function DiscoverEswatiniPage() {
+function DiscoverEswatini() {
   return (
     <div className="DiscoverEswatini">
       <img src={discEswImage} alt="Discover Eswatini" />
@@ -18,4 +18,4 @@ function DiscoverEswatiniPage() {
   );
 }
 
-export default DiscoverEswatiniPage;
+export default DiscoverEswatini;
