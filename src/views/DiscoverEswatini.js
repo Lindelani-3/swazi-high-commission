@@ -1,7 +1,7 @@
 import React from 'react';
 import './DiscoverEswatini.css';
 import SidePanel from '../components/SidePanel';
-import discEswImage from './content/valley-logo_cleanup.png';
+import discEswImage from './content/incwala.png';
 
 
 function DiscoverEswatiniPage() {

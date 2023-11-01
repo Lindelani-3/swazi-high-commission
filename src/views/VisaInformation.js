@@ -1,7 +1,7 @@
 import React from 'react';
 import './VisaInformation.css';
 import SidePanel from '../components/SidePanel';
-import visaImage from './content/valley-logo_cleanup.png';
+import visaImage from './content/ngwenya.png';
 
 
 function VisaInformation() {

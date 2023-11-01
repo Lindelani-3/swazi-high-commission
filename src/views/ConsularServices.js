@@ -1,7 +1,7 @@
 import React from 'react';
 import './ConsularServices.css';
 import SidePanel from '../components/SidePanel';
-import servicesImage from './content/valley-logo_cleanup.png';
+import servicesImage from './content/highway.png';
 
 
 function ConsularServices() {

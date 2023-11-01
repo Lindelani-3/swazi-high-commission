@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutPage.css';
 import SidePanel from '../components/SidePanel';
-import aboutImage from './content/valley-logo_cleanup.png';
+import aboutImage from './content/city.png';
 
 function AboutPage() {
   return (

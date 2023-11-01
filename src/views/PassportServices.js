@@ -1,7 +1,7 @@
 import React from 'react';
 import './PassportServices.css';
 import SidePanel from '../components/SidePanel';
-import passportImage from './content/valley-logo_cleanup.png';
+import passportImage from './content/city2.png';
 
 function PassportServices() {
   return (
