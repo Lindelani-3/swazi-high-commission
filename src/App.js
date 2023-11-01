@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavigationBar from './components/NavigationBar';
+import Footer from './components/Footer';
 import HomePage from './views/HomePage';
 import AboutPage from './views/AboutPage';
 import ContactPage from './views/ContactPage';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/consular-services/passport-services" element={<PassportServices />} />
 
       </Routes>
+      <Footer />
     </div>
     
   );
