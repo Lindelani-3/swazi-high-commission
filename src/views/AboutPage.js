@@ -1,5 +1,6 @@
 import React from 'react';
 import './AboutPage.css';
+import SidePanel from '../components/SidePanel';
 import aboutImage from './content/valley-logo_cleanup.png';
 
 function AboutPage() {
@@ -11,6 +12,7 @@ function AboutPage() {
         <p>Welcome to the About page of the Swaziland High Commission. Here you can learn more about our history, mission, and values.</p>
         {/* Add more content as needed */}
       </div>
+      <SidePanel />
     </div>
   );
 }

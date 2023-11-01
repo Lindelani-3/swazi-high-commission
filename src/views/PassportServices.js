@@ -1,5 +1,6 @@
 import React from 'react';
 import './PassportServices.css';
+import SidePanel from '../components/SidePanel';
 import passportImage from './content/valley-logo_cleanup.png';
 
 function PassportServices() {
@@ -31,6 +32,7 @@ function PassportServices() {
           <a href="/contact">Contact Information</a>
         </section>
         </div>
+        <SidePanel />
     </div>
   );
 }

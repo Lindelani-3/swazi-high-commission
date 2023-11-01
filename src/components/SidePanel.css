@@ -5,7 +5,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 250px;
     position: fixed;
-    top: 110px; 
+    top: 100px; 
+    bottom: 20px;
     right: 20px;
     z-index: 10;
     transition: transform 0.3s ease-in-ease-out;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import SidePanel from '../components/SidePanel';
-import homeImage from './content/valley-logo_cleanup.png';
+import homeImage from './content/beehive-huts-kamsholo.png';
 
 
 const HomePage = () => {

@@ -1,6 +1,8 @@
 import React from 'react';
 import './ConsularServices.css';
+import SidePanel from '../components/SidePanel';
 import servicesImage from './content/valley-logo_cleanup.png';
+
 
 function ConsularServices() {
   return (
@@ -28,6 +30,7 @@ function ConsularServices() {
           <a href="/contact">Contact Information</a>
         </section>
         </div>
+        <SidePanel />
     </div>
   );
 }
