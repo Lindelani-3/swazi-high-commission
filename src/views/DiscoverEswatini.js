@@ -1,16 +1,19 @@
 import React from 'react';
 import './DiscoverEswatini.css';
+import discEswImage from './content/valley-logo_cleanup.png';
 
-function DiscoverEswatini() {
+
+function DiscoverEswatiniPage() {
   return (
     <div className="DiscoverEswatini">
-      <h1>Discover Eswatini</h1>
-      <p>
-        Welcome to Eswatini (formerly known as Swaziland), a small landlocked country in Southern Africa. 
-        Explore the rich culture, stunning landscapes, and vibrant communities of this unique nation.
-      </p>
+      <img src={discEswImage} alt="Discover Eswatini" />
+      <div className="content">
+        <h1>Discover Eswatini</h1>
+        <p>Welcome to Eswatini! Explore the beauty, culture, and history of this magnificent kingdom. Dive into the adventures and find out what makes Eswatini unique.</p>
+        {/* Add more content as needed */}
+      </div>
     </div>
   );
 }
 
-export default DiscoverEswatini;
+export default DiscoverEswatiniPage;

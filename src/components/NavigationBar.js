@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavigationBar.css';
-import logoImage from './Coat_of_arms_of_Eswatini.svg_.png'; // Update the path accordingly
+import logoImage from './content/Coat_of_arms_of_Eswatini.svg_.png'; 
 
 
 function NavigationBar() {

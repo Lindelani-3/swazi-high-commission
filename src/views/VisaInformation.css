@@ -1,5 +1,24 @@
 .VisaInformation {
-    text-align: center;
-    padding: 20px;
-  }
+  text-align: center;
+  padding: 20px;
+}
+
+.VisaInformation img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.VisaInformation .content {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: -50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 900px;
+  width: 900px;
+} 
+
+
   

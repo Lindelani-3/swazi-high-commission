@@ -1,4 +1,5 @@
 .ConsularServices {
+  position: relative;
   text-align: center;
   padding: 20px;
 }
@@ -16,9 +17,23 @@
 }
 
 .ConsularServices img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
+
+.ConsularServices .content {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: -50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 900px;
+  width: 900px;
+}
+
+
 
 .ConsularServices a {
   color: #1E49A6;

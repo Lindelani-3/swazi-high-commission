@@ -1,13 +1,17 @@
 import React from 'react';
 import './VisaInformation.css';
+import visaImage from './content/valley-logo_cleanup.png';
+
 
 function VisaInformation() {
   return (
     <div className="VisaInformation">
-      <h1>Visa Information</h1>
-      <p>
-        Find all the necessary information regarding visa requirements, application processes, and fees for traveling to Eswatini.
-      </p>
+      <img src={visaImage} alt="Visa Information" />
+      <div className="content">
+        <h1>Visa Information</h1>
+        <p>Find all the information you need to apply for a visa to Eswatini. Understand the requirements, processes, and get ready for your trip!</p>
+        {/* Add more content as needed */}
+      </div>
     </div>
   );
 }
