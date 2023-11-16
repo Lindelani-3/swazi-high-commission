@@ -1,8 +1,8 @@
 {
+  "homepage": "http://Lindelani-3.github.io/swazi-high-commission",
   "name": "swazi-high-commission",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://Lindelani-3.github.io/swazi-high-commission",
+  "private": true, 
   "dependencies": {
     "@testing-library/jest-dom": "^5.9",
     "@testing-library/react": "^13.4.0",
