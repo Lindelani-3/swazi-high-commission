@@ -4,7 +4,7 @@ Welcome to the official repository of the Swazi High Commission website. This we
 
 ## Preview
 
-![high-commission-export](https://github.com/Lindelani-3/swazi-high-commission/assets/99859713/09bb4685-6b6f-4008-acfe-e210623afb14)
+![high-commission-export](https://github.com/Lindelani-3/swazi-high-commission/assets/99859713/b517f2ad-6c98-43e3-a9fa-86a2fbb51af8)
 
 
 
