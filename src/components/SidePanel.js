@@ -4,22 +4,22 @@ import './SidePanel.css';
 function SidePanel() {
   const [offset, setOffset] = useState(0);
 
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const footer = document.querySelector('.footer');
-  //     const rect = footer.getBoundingClientRect();
-  //     const offset = window.innerHeight - rect.top;
+  useEffect(() => {
+    const handleScroll = () => {
+      const footer = document.querySelector('.footer');
+      const rect = footer.getBoundingClientRect();
+      const offset = window.innerHeight - rect.top;
 
-  //     if (offset > 0) {
-  //       setOffset(offset);
-  //     } else {
-  //       setOffset(0);
-  //     }
-  //   };
+      if (offset > 0) {
+        setOffset(offset);
+      } else {
+        setOffset(0);
+      }
+    };
 
-  //   window.addEventListener('scroll', handleScroll);
-  //   return () => window.removeEventListener('scroll', handleScroll);
-  // }, []);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <aside className="side-panel" style={{ transform: `translateY(-${offset}px)` }}>
