@@ -36,9 +36,9 @@ function SidePanel() {
       <p>Notice 3</p>
 
 
-      {/* <h3>Advertisements</h3>*/}
+      <h3>Advertisements</h3>
       {/* Add your ads here */}
-      {/* p>Ad 1</p>*/}
+      {/* <p>Ad 1</p>*/}
       {/* <p>Ad 2</p>*/}
       {/* <p>Ad 3</p>*/}
       
