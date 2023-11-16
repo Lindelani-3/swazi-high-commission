@@ -2,7 +2,7 @@
   "homepage": "http://Lindelani-3.github.io/swazi-high-commission",
   "name": "swazi-high-commission",
   "version": "0.1.0",
-  "private": true, 
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.9",
     "@testing-library/react": "^13.4.0",
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^6.0.0"
   }
 }

@@ -1,4 +1,4 @@
-.side-panel {
+/* .side-panel {
     background-color: #ecf0f1;
     padding: 20px;
     border-radius: 10px;
@@ -10,16 +10,29 @@
     right: 20px;
     z-index: 10;
     transition: transform 0.3s ease-in-ease-out;
-  }
+  } */
   
-  
-  .side-panel h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-  }
-  
-  .side-panel p {
-    font-size: 1em;
-    margin-bottom: 10px;
-  }
+.side-panel {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  z-index: 10;
+  transition: transform 0.3s ease-in-ease-out;
+}
+
+
+.side-panel h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.side-panel p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
   
