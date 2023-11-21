@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutPage.css';
 // import SidePanel from '../components/SidePanel';
-import aboutImage from './content/city.png';
+import aboutImage from './content/culture-4.png';
 
 function AboutPage() {
   return (

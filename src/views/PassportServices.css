@@ -38,9 +38,10 @@
   }
 
   .PassportServices img {
-    width: 100%;
-    height: 400px;
+    width: 95%;
+    height: 550px;
     object-fit: cover;
+    margin-top: 20px;
   }
 
   .PassportServices section {
@@ -61,4 +62,5 @@
     max-width: 90%;
     padding: 40px;
     margin: 30px;
+    margin-top: -400px;
   }

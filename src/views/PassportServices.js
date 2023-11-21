@@ -1,7 +1,7 @@
 import React from 'react';
 import './PassportServices.css';
-import SidePanel from '../components/SidePanel';
-import passportImage from './content/city2.png';
+// import SidePanel from '../components/SidePanel';
+import passportImage from './content/ezulwini-proj.png';
 
 function PassportServices() {
   return (

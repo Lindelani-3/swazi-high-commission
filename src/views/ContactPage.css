@@ -3,10 +3,10 @@
 }
 
 .ContactPage img {
-  height: 400px;
-  width: 100%;
   object-fit: cover;
-  margin: 20px;
+  height: 550px;
+  width: 95%;
+  margin-top: 20px;
 }
 
 .ContactPage section {
@@ -27,4 +27,5 @@
   max-width: 90%;
   padding: 40px;
   margin: 20px;
+  margin-top: -400px;
 }

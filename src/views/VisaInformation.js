@@ -1,7 +1,7 @@
 import React from 'react';
 import './VisaInformation.css';
-import SidePanel from '../components/SidePanel';
-import visaImage from './content/ngwenya.png';
+// import SidePanel from '../components/SidePanel';
+import visaImage from './content/airlink.png';
 
 
 function VisaInformation() {

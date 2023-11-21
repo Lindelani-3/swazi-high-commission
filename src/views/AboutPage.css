@@ -3,7 +3,8 @@
 }
 
 .AboutPage img {
-  height: 400px;
+  object-fit: cover;
+  height: 600px;
   width: 95%;
   margin-top: 20px;
 }
@@ -19,13 +20,14 @@
 }
 
 .AboutPage .opener {
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(13, 1, 1, 0.1);
   display: inline-block;
   max-width: 90%;
   padding: 40px;
   margin: 20px;
+  margin-top: -400px;
 }
 
 

@@ -2,7 +2,8 @@
 }
 
 .DiscoverEswatini img {
-  height: 400px;
+  object-fit: cover;
+  height: 550px;
   width: 95%;
   margin-top: 20px;
 }
@@ -15,6 +16,7 @@
   max-width: 90%;
   padding: 40px;
   margin: 20px;
+  margin-top: -400px;
 }
 
 .DiscoverEswatini section {
