@@ -1,5 +1,4 @@
 .DiscoverEswatini {
-  text-align: center;
 }
 
 .DiscoverEswatini img {
@@ -8,11 +7,22 @@
   margin-top: 20px;
 }
 
-.DiscoverEswatini p {
+.DiscoverEswatini .opener {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 90%;
+  padding: 40px;
+  margin: 20px;
+}
+
+.DiscoverEswatini section {
   background-color: #dee;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  max-width: 95%;
+  max-width: 90%;
   padding: 40px;
+  margin: 30px;
 }

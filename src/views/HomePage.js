@@ -33,11 +33,13 @@ const HomePage = () => {
       onClick={handleImageClick}
     >
       <div className="welcome-message">
-      <h1>Welcome<br></br>to the<br></br>Eswatini High Commission</h1>
+        <section>
+        <h1>Welcome<br></br>to the<br></br>Eswatini High Commission</h1>
         {/* <p>
           We are delighted to welcome you to our official website. The Swazi High Commission is dedicated to fostering strong relations, promoting trade, and providing consular services.<br />
           Explore our website to learn more about Eswatini, find information on consular services, and discover the vibrant culture and rich history of our beautiful kingdom.
         </p> */}
+        </section>
       </div>
       {/* <SidePanel /> */}
     </div>
