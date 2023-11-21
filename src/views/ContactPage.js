@@ -1,7 +1,7 @@
 import React from 'react';
 import './ContactPage.css';
 // import SidePanel from '../components/SidePanel';
-import contactImage from './content/phophonyane-falls.png';
+import contactImage from './content/high commission pretoria.png';
 
 
 const ContactPage = () => {

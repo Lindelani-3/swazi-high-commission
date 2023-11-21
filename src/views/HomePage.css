@@ -68,3 +68,8 @@
   padding: 40px;
   margin: 30px;
 }
+
+.homepage img {
+  width: 100%;
+  object-fit: cover;
+}

@@ -47,6 +47,7 @@
   width: 100%;
   height: auto; /* Keeps the aspect ratio of the image */
   object-fit: cover; /* Ensures the image covers the area without stretching */
+  border-radius: 10px;
 }
 
 .text-container {
