@@ -1,26 +1,23 @@
 {
   "files": {
-    "main.css": "/swazi-high-commission/static/css/main.b4ab838e.css",
-    "main.js": "/swazi-high-commission/static/js/main.0f808562.js",
+    "main.css": "/swazi-high-commission/static/css/main.8dc3184b.css",
+    "main.js": "/swazi-high-commission/static/js/main.b8af620a.js",
     "static/js/787.6c688d19.chunk.js": "/swazi-high-commission/static/js/787.6c688d19.chunk.js",
-    "static/media/sibebe.png": "/swazi-high-commission/static/media/sibebe.d581a8d7c49e2d8dd1ce.png",
-    "static/media/more huts.png": "/swazi-high-commission/static/media/more huts.f933c89ed3a05a1fefa2.png",
-    "static/media/culture-4.png": "/swazi-high-commission/static/media/culture-4.b350974a6e80850784f4.png",
-    "static/media/eswatini.png": "/swazi-high-commission/static/media/eswatini.8e1d879ef588ebe178e1.png",
     "static/media/highway.png": "/swazi-high-commission/static/media/highway.848dd03bbd0adc8efb10.png",
-    "static/media/ezulwini-proj.png": "/swazi-high-commission/static/media/ezulwini-proj.5a7a2f28b134ee959e6e.png",
-    "static/media/culture-2.png": "/swazi-high-commission/static/media/culture-2.c8d120ff72a2f2f02c95.png",
-    "static/media/malolotja.png": "/swazi-high-commission/static/media/malolotja.f2a5b4d9c9fa76838671.png",
-    "static/media/high commission pretoria.png": "/swazi-high-commission/static/media/high commission pretoria.02ef0905331eca52a70b.png",
-    "static/media/airlink.png": "/swazi-high-commission/static/media/airlink.e2288895aec6d94fc078.png",
+    "static/media/city.png": "/swazi-high-commission/static/media/city.0796d58401f40f74ec34.png",
+    "static/media/incwala.png": "/swazi-high-commission/static/media/incwala.515dad451f7478dd02cd.png",
+    "static/media/beehive-huts-kamsholo.png": "/swazi-high-commission/static/media/beehive-huts-kamsholo.95a73dce10425cd980d8.png",
+    "static/media/ngwenya.png": "/swazi-high-commission/static/media/ngwenya.bfe9721dd1230afb08dc.png",
+    "static/media/phophonyane-falls.png": "/swazi-high-commission/static/media/phophonyane-falls.cafda26bab060faf98d9.png",
+    "static/media/city2.png": "/swazi-high-commission/static/media/city2.3285c22ed08e9368a007.png",
     "static/media/Coat_of_arms_of_Eswatini.svg_.png": "/swazi-high-commission/static/media/Coat_of_arms_of_Eswatini.svg_.6af254fd697b9ed140be.png",
     "index.html": "/swazi-high-commission/index.html",
-    "main.b4ab838e.css.map": "/swazi-high-commission/static/css/main.b4ab838e.css.map",
-    "main.0f808562.js.map": "/swazi-high-commission/static/js/main.0f808562.js.map",
+    "main.8dc3184b.css.map": "/swazi-high-commission/static/css/main.8dc3184b.css.map",
+    "main.b8af620a.js.map": "/swazi-high-commission/static/js/main.b8af620a.js.map",
     "787.6c688d19.chunk.js.map": "/swazi-high-commission/static/js/787.6c688d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ab838e.css",
-    "static/js/main.0f808562.js"
+    "static/css/main.8dc3184b.css",
+    "static/js/main.b8af620a.js"
   ]
 }
