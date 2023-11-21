@@ -12,6 +12,7 @@ function ConsularServices() {
         <h1>Consular Services</h1>
         <p>Welcome to the Consular Services page of the Swaziland High Commission. Here you can find information about the services we provide.</p>
       </div>
+      <br></br>
       <div className="content">
       <section>
         <h2>Visa Services</h2>

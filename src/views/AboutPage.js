@@ -12,6 +12,7 @@ function AboutPage() {
         <p>Welcome to the About page of the Swaziland High Commission. Here you can learn more about our history, mission, and values.</p>
         {/* Add more content as needed */}
       </div>
+      <br></br>
       <div>
         <section>
         <h1>About Us</h1>

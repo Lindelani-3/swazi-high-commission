@@ -9,17 +9,23 @@
   object-fit: cover;
 }
 
-.VisaInformation .content {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: -50px;
+.VisaInformation section {
+  background-color: #dee;
   border-radius: 10px;
-  margin-right: 280px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  max-width: 900px;
-  width: 900px;
-} 
+  max-width: 90%;
+  padding: 40px;
+  margin: 30px;
+}
 
-
+.VisaInformation .opener {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 90%;
+  padding: 40px;
+  margin: 30px;
+}
   

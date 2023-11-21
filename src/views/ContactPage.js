@@ -12,11 +12,12 @@ const ContactPage = () => {
         <h1>Contact Us</h1>
         <p>You can reach us at contact@swazihighcom.co.za</p>
       </div>
+      <br></br>
       <div>
-        <section>
+      <section>
         <h1>Contact Us</h1>
         <p>You can reach us at contact@swazihighcom.co.za</p>
-        </section>
+      </section>
       </div>
       {/* <SidePanel /> */}
     </div>
