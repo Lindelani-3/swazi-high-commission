@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
 .HomePage {
     text-align: center;
     padding: 20px;
@@ -5,19 +8,68 @@
 
 .HomePage img {
   width: 100%;
-  height: 400px;
   object-fit: cover;
 }
 
 
-.HomePage .content {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: -50px;
-  margin-right: 280px;
+.HomePage section {
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  max-width: 900px;
-  width: 900px;
+  max-width: 90%;
+  padding: 40px;
+  margin: 20px;
 }  
+
+
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-image 1s ease-out; /* Smoother transition for background change */
+  cursor: pointer; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.welcome-message {
+  /* margin-top: -50px;
+  margin-right: 280px; */
+  align-self: center;
+  /* display: inline-block;
+  max-width: 900px;
+  width: 900px; */
+}
+
+.welcome-message h1 {
+  font-size: 2.5em;
+  color: #fff;
+}
+
+.welcome-message p {
+  font-size: 1.2em;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.homepage section {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  max-width: 90%;
+  padding: 40px;
+  margin: 30px;
+}
+
+.homepage img {
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,37 +1,38 @@
 .ConsularServices {
-  position: relative;
-  text-align: center;
-  padding: 20px;
+  align-content: center;
 }
 
 .ConsularServices h1 {
   font-size: 2em;
-  margin-bottom: 20px;
   color: #333333;
 }
 
-.ConsularServices p {
-  font-size: 1em;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
 .ConsularServices img {
-  width: 100%;
-  height: 400px;
   object-fit: cover;
+  height: 550px;
+  width: 95%;
+  margin-top: 20px;
 }
 
-.ConsularServices .content {
-  background-color: #fff;
-  padding: 20px;
-  margin-top: -50px;
-  margin-right: 280px;
+.ConsularServices section {
+  background-color: #dee;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  max-width: 900px;
-  width: 900px;
+  max-width: 90%;
+  padding: 40px;
+  margin: 30px;
+}
+
+.ConsularServices .opener {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 90%;
+  padding: 40px;
+  margin: 20px;
+  margin-top: -400px;
 }
 
 
@@ -54,6 +55,3 @@
   margin-bottom: 10px;
 }
 
-.ConsularServices section {
-  margin-bottom: 40px;
-}
