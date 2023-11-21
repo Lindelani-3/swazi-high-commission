@@ -1,15 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './HomePage.css';
-import SidePanel from '../components/SidePanel';
-import huts from './content/beehive-huts-kamsholo.png';
-import sibebe from './content/sibebe.png';
+// import SidePanel from '../components/SidePanel';
+import huts from './content/morehuts.png';
 import malolotja from './content/malolotja.png';
-import ngwenya from './content/ngwenya-lodge-2.png';
-import ngwenyaother from './content/ngwenya-lodge.png';
-import mbabane from './content/mbabane.png';
+import eswatini from './content/eswatini.png';
+// import sibebe from './content/sibebe.png';
+// import mbabane from './content/mbabane.png';
+// import ngwenya from './content/ngwenya-lodge-2.png';
 
 const HomePage = () => {
-  const images = [sibebe, malolotja, ngwenya, ngwenyaother, mbabane, huts];
+  const images = [malolotja, eswatini, huts];
   const [currentImage, setCurrentImage] = useState(0);
 
   const changeImage = useCallback(() => {
@@ -33,13 +33,13 @@ const HomePage = () => {
       onClick={handleImageClick}
     >
       <div className="welcome-message">
-        <h1>Welcome to the Eswatini High Commission</h1>
-        <p>
+      <h1>Welcome<br></br>to the<br></br>Eswatini High Commission</h1>
+        {/* <p>
           We are delighted to welcome you to our official website. The Swazi High Commission is dedicated to fostering strong relations, promoting trade, and providing consular services.<br />
           Explore our website to learn more about Eswatini, find information on consular services, and discover the vibrant culture and rich history of our beautiful kingdom.
-        </p>
+        </p> */}
       </div>
-      <SidePanel />
+      {/* <SidePanel /> */}
     </div>
   );
 };
