@@ -19,7 +19,6 @@ function VisaInformation() {
       <p>Find all the information you need to apply for a visa to Eswatini. Understand the requirements, processes, and get ready for your trip!</p>
       </section>
     </div>
-    {/* <SidePanel /> */}
     </div>
   );
 }

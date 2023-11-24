@@ -34,7 +34,6 @@ function PassportServices() {
         <a href="/contact">Contact Information</a>
       </section>
       </div>
-      {/* <SidePanel /> */}
     </div>
   );
 }

@@ -18,6 +18,12 @@
   max-width: 90%;
   padding: 40px;
   margin: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.VisaInformation section:hover {
+  transform: translateY(-10px); /* Moves the tile up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
 }
 
 .VisaInformation .opener {
@@ -29,5 +35,11 @@
   padding: 40px;
   margin: 30px;
   margin-top: -400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.VisaInformation .opener:hover {
+  transform: translateY(-10px); /* Moves the tile up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
 }
   
