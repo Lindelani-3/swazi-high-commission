@@ -15,7 +15,7 @@ function NavigationBar() {
         </Link>
       </div>
       <div className="nav-links">
-        <Link to="/">Home</Link>
+        <Link to="/home">Home</Link>
         <Link to="/discover-eswatini">Discover Eswatini</Link>
         
         <div className="dropdown" onMouseEnter={() => setIsConsularDropdownOpen(true)} onMouseLeave={() => setIsConsularDropdownOpen(false)}>
