@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/swazi-high-commission/static/css/main.b4ab838e.css",
+    "main.css": "/swazi-high-commission/static/css/main.59d9e869.css",
     "main.js": "/swazi-high-commission/static/js/main.0f808562.js",
     "static/js/787.6c688d19.chunk.js": "/swazi-high-commission/static/js/787.6c688d19.chunk.js",
     "static/media/sibebe.png": "/swazi-high-commission/static/media/sibebe.d581a8d7c49e2d8dd1ce.png",
@@ -15,12 +15,12 @@
     "static/media/airlink.png": "/swazi-high-commission/static/media/airlink.e2288895aec6d94fc078.png",
     "static/media/Coat_of_arms_of_Eswatini.svg_.png": "/swazi-high-commission/static/media/Coat_of_arms_of_Eswatini.svg_.6af254fd697b9ed140be.png",
     "index.html": "/swazi-high-commission/index.html",
-    "main.b4ab838e.css.map": "/swazi-high-commission/static/css/main.b4ab838e.css.map",
+    "main.59d9e869.css.map": "/swazi-high-commission/static/css/main.59d9e869.css.map",
     "main.0f808562.js.map": "/swazi-high-commission/static/js/main.0f808562.js.map",
     "787.6c688d19.chunk.js.map": "/swazi-high-commission/static/js/787.6c688d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ab838e.css",
+    "static/css/main.59d9e869.css",
     "static/js/main.0f808562.js"
   ]
 }
