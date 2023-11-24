@@ -7,9 +7,10 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-column">
           <h3 className="footer-title">Contact Us</h3>
-          <p>Email: info@swazihighcommission.com</p>
-          <p>Phone: +123 456 7890</p>
-          <p>Address: 123 Swazi St, Mbabane, Eswatini</p>
+          <p>Email: info@swazihighcom.co.za</p>
+          <p>Phone: (+27) (12) 344 1910 / 17 / 25</p>
+          <p>Postal Address: PO Box 14294, Hatfield, 0028</p>
+          <p>Street Address: 715 Government Avenue, cnr Blackwood Street, Arcadia, Pretoria.</p>
         </div>
         <div className="footer-column">
           <h3 className="footer-title">Quick Links</h3>
