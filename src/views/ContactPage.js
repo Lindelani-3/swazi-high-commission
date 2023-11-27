@@ -1,8 +1,7 @@
 import React from 'react';
 import './ContactPage.css';
-// import SidePanel from '../components/SidePanel';
-import contactImage from './content/high commission pretoria.png';
-import backgroundImage from './content/background.png';
+import contactImage from './content/high commission pretoria.webp';
+import backgroundImage from './content/background.webp';
 
 
 const ContactPage = () => {

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css'; 
-import huts from './content/more huts.png';
-import malolotja from './content/malolotja.png';
-import eswatini from './content/eswatini.png';
+import huts from './content/more huts.webp';
+import malolotja from './content/malolotja.webp';
+import eswatini from './content/eswatini.webp';
 
 function LandingPage() {
     const navigate = useNavigate();

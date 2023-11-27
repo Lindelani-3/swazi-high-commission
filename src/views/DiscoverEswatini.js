@@ -1,10 +1,10 @@
 import React from 'react';
 import './DiscoverEswatini.css';
-// import SidePanel from '../components/SidePanel';
-import huts from './content/more huts.png';
-import culture from './content/culture-2.png';
-import sibebe from './content/sibebe.png';
-import backgroundImage from './content/background.png';
+import huts from './content/more huts.webp';
+import culture from './content/culture-2.webp';
+import king from './content/mswati.webp';
+import queen from './content/queen.png';
+import backgroundImage from './content/background.webp';
 
 
 function DiscoverEswatini() {
@@ -38,13 +38,13 @@ function DiscoverEswatini() {
               {/* More text or elements as needed */}
           </div>
           <div className="image-container">
-              <img src={sibebe} alt="Depicting Eswatini culture" />
+              <img src={king} alt="Mswati" />
           </div>
         </section>
 
         <section>
           <div className="image-container">
-              <img src={sibebe} alt="Depicting Eswatini culture" />
+              <img src={queen} alt="Queen Mother" />
           </div>
           <div className="text-container">
               <h2>HER MAJESTY INDLOVUKAZI</h2>

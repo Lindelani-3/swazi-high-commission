@@ -1,7 +1,7 @@
 import React from 'react';
 import './ConsularServices.css';
 import servicesImage from './content/highway.png';
-import backgroundImage from './content/background.png';
+import backgroundImage from './content/background.webp';
 
 
 function ConsularServices() {

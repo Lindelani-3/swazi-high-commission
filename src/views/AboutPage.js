@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutPage.css';
-import aboutImage from './content/culture-4.png';
-import backgroundImage from './content/background.png';
+import aboutImage from './content/culture-4.webp';
+import backgroundImage from './content/background.webp';
 
 function AboutPage() {
   return (

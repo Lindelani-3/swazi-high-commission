@@ -1,8 +1,8 @@
 import React from 'react';
 import './VisaInformation.css';
 // import SidePanel from '../components/SidePanel';
-import visaImage from './content/airlink.png';
-import backgroundImage from './content/background.png';
+import visaImage from './content/airlink.webp';
+import backgroundImage from './content/background.webp';
 
 
 function VisaInformation() {

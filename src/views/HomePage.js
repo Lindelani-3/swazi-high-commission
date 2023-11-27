@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './HomePage.css';
-import huts from './content/more huts.png';
-import malolotja from './content/malolotja.png';
-import eswatini from './content/eswatini.png';
-import backgroundImage from './content/background.png';
-import mbabane from './content/mbabane.png';
-import ezulwini from './content/ezulwini-proj.png';
+import huts from './content/more huts.webp';
+import malolotja from './content/malolotja.webp';
+import eswatini from './content/eswatini.webp';
+import backgroundImage from './content/background.webp';
+import mbabane from './content/mbabane.webp';
+import ezulwini from './content/ezulwini-proj.webp';
 
 const HomePage = () => {
   const images = [malolotja, eswatini, huts];
@@ -28,6 +28,7 @@ const HomePage = () => {
   return (
     <div>
       <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className=''>
       <div 
       className="homepage" 
       style={{ backgroundImage: `url(${images[currentImage]})` }}
@@ -69,6 +70,7 @@ const HomePage = () => {
                 {/* More text or elements as needed */}
             </div>
           </section>
+        </div>
         </div>
     </div>
   );

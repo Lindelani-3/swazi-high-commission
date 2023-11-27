@@ -1,8 +1,8 @@
 import React from 'react';
 import './PassportServices.css';
 // import SidePanel from '../components/SidePanel';
-import passportImage from './content/ezulwini-proj.png';
-import backgroundImage from './content/background.png';
+import passportImage from './content/ezulwini-proj.webp';
+import backgroundImage from './content/background.webp';
 
 function PassportServices() {
   return (
