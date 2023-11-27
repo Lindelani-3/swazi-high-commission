@@ -18,6 +18,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.home-slider {
+  border-radius: 15px;
+}
+
+
 .background {
   background-size: cover;
   background-position: center;
@@ -46,7 +51,7 @@
   max-width: 80%;
   padding: 40px;
   margin: 20px;
-  margin-top: -400px;
+  margin-top: -600px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -102,13 +107,6 @@
   z-index: 1; /* Position the image above the background */
 }
 
-.homepage .imgopen {
-  width: 100%;
-  object-fit: cover;
-  height: 550px;
-  position: relative; /* Ensure the image is positioned relative to its container */
-  z-index: -1; /* Position the image above the background */
-}
 
 /* .homepage .imgopen::before {
   content: '';

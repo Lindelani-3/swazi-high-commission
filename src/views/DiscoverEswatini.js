@@ -1,6 +1,6 @@
 import React from 'react';
 import './DiscoverEswatini.css';
-import huts from './content/more huts.webp';
+import huts from './content/morehuts.webp';
 import culture from './content/culture-2.webp';
 import king from './content/mswati.webp';
 import queen from './content/queen.png';

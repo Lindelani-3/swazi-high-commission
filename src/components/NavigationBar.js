@@ -32,12 +32,13 @@ function NavigationBar() {
           <span>Departments</span>
           {isDepartmentsDropdownOpen && (
             <div className="dropdown-content">
-              <Link to="/departments/foreign-affairs">Foreign Affairs</Link>
-              <Link to="/departments/trade-and-commerce">Trade and Commerce</Link>
-              <Link to="/departments/education">Education</Link>
-              <Link to="/departments/health">Health</Link>
-              <Link to="/departments/tourism">Tourism</Link>
-            </div>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-home-affairs" target="_blank" rel="noopener noreferrer">Home Affairs</a>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-agriculture" target="_blank" rel="noopener noreferrer">Agriculture</a>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-natural-resources-energy" target="_blank" rel="noopener noreferrer">Natural Resources & Energy</a>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-education-training" target="_blank" rel="noopener noreferrer">Education & Training</a>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-ict" target="_blank" rel="noopener noreferrer">ICT</a>
+            <a href="https://www.gov.sz/index.php/ministries-departments/ministry-of-tourism-environmental-affairs" target="_blank" rel="noopener noreferrer">Tourism & Environmental Affairs</a>
+          </div>
           )}
         </div>
 
