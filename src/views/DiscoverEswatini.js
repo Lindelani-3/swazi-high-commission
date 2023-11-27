@@ -22,7 +22,9 @@ function DiscoverEswatini() {
         <div>
         <section>
             <div className="image-container">
-                <img src={culture} alt="Depicting Eswatini culture" />
+                <a href="https://en.wikipedia.org/wiki/Eswatini" target="_blank" rel="noopener noreferrer">
+                  <img src={culture} alt="Depicting Eswatini culture" />
+                </a>
             </div>
             <div className="text-container">
               <h2>EMASWATI</h2>
@@ -32,25 +34,27 @@ function DiscoverEswatini() {
         </section>
 
         <section>
-          <div className="text-container">
-              <h2>HIS MAJESTY KING MSWATI III</h2>
-              <p>His Majesty King Mswati III was born at the Raleigh Fitkin Memorial Hospital in Manzini, Eswatini, on 19th April, 1968, that is a few months before Eswatini attained independence from Britain. At birth, he was named Makhosetive (“King of All Nations”). Prince Makhosetive was educated at Masundvwini Palace School and later went to Sherborne School in the United Kingdom until 1986 when he returned to Eswatini to be installed King of Eswatini. According to tradition, his official name and title became Mswati III.</p>
-              {/* More text or elements as needed */}
-          </div>
-          <div className="image-container">
-              <img src={king} alt="Mswati" />
-          </div>
+            <div className="text-container">
+                <h2>HIS MAJESTY KING MSWATI III</h2>
+                <p>His Majesty King Mswati III was born at the Raleigh Fitkin Memorial Hospital in Manzini, Eswatini, on 19th April, 1968, that is a few months before Eswatini attained independence from Britain. At birth, he was named Makhosetive (“King of All Nations”). Prince Makhosetive was educated at Masundvwini Palace School and later went to Sherborne School in the United Kingdom until 1986 when he returned to Eswatini to be installed King of Eswatini. According to tradition, his official name and title became Mswati III.</p>
+            </div>
+            <div className="image-container">
+              <a href="https://en.wikipedia.org/wiki/Mswati_III" target="_blank" rel="noopener noreferrer">
+                <img src={king} alt="Mswati" />
+              </a>
+            </div>
         </section>
 
         <section>
-          <div className="image-container">
-              <img src={queen} alt="Queen Mother" />
-          </div>
-          <div className="text-container">
-              <h2>HER MAJESTY INDLOVUKAZI</h2>
-              <p>Her Majesty the Queen Mother (Indlovukazi) of the Kingdom of Eswatini has been the Indlovukazi (Great She-Elephant) since 1986. She was born Ntombi Tfwala and she is the Mother to His Majesty, King Mswati III. As per Emaswati custom, Her Majesty became Queen Mother when His Majesty King Mswati III was crowned as king of Eswatini. Prior to that, the Queen Mother was Regent of Eswatini from 1983 until 1986. In essence, the “Indlovukazi” is the Mother of the Emaswati nation, and as part of her traditional role, she rules together with His Majesty the King.</p>
-              {/* More text or elements as needed */}
-          </div>
+            <div className="image-container">
+              <a href="https://en.wikipedia.org/wiki/Ntfombi_of_Eswatini" target="_blank" rel="noopener noreferrer">
+                <img src={queen} alt="Queen Mother" />
+              </a>
+            </div>
+            <div className="text-container">
+                <h2>HER MAJESTY INDLOVUKAZI</h2>
+                <p>Her Majesty the Queen Mother (Indlovukazi) of the Kingdom of Eswatini has been the Indlovukazi (Great She-Elephant) since 1986. She was born Ntombi Tfwala and she is the Mother to His Majesty, King Mswati III. As per Emaswati custom, Her Majesty became Queen Mother when His Majesty King Mswati III was crowned as king of Eswatini. Prior to that, the Queen Mother was Regent of Eswatini from 1983 until 1986. In essence, the “Indlovukazi” is the Mother of the Emaswati nation, and as part of her traditional role, she rules together with His Majesty the King.</p>
+            </div>
         </section>
 
         </div>
