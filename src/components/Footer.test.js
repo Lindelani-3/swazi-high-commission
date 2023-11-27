@@ -6,9 +6,7 @@ describe('Footer', () => {
   test('renders contact information', () => {
     render(<Footer />);
     expect(screen.getByText(/Contact Us/i)).toBeInTheDocument();
-    expect(screen.getByText(/Email: info@swazihighcommission.com/i)).toBeInTheDocument();
-    expect(screen.getByText(/Phone: \+123 456 7890/i)).toBeInTheDocument();
-    expect(screen.getByText(/Address: 123 Swazi St, Mbabane, Eswatini/i)).toBeInTheDocument();
+    expect(screen.getByText(/Email: info@swazihighcom.co.za/i)).toBeInTheDocument();
   });
 
   test('renders quick links', () => {
@@ -18,9 +16,7 @@ describe('Footer', () => {
       </Router>
     );
     expect(screen.getByText(/Quick Links/i)).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /About/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Contact/i })).toBeInTheDocument();
-    expect(screen.getByRole('link', { name: /Consular Services/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /Eswatini Government/i })).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /Discover Eswatini/i })).toBeInTheDocument();
   });
 

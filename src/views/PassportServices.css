@@ -3,6 +3,13 @@
   padding: 20px;
 }
 
+.background {
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkening effect */
+}
+
 .PassportServices h1 {
   font-size: 2em;
   margin-bottom: 20px;
@@ -42,10 +49,11 @@ width: 95%;
 height: 550px;
 object-fit: cover;
 margin-top: 20px;
+border-radius: 12px;
 }
 
 .PassportServices section {
-background-color: #dee;
+  background-color: rgba(255, 255, 255, 0.9);
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 display: inline-block;
@@ -65,7 +73,7 @@ background-color: #fff;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 display: inline-block;
-max-width: 90%;
+max-width: 80%;
 padding: 40px;
 margin: 30px;
 margin-top: -400px;

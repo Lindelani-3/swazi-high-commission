@@ -2,6 +2,13 @@
   align-content: center;
 }
 
+.background {
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkening effect */
+}
+
 .ConsularServices h1 {
   font-size: 2em;
   color: #333333;
@@ -12,10 +19,11 @@
   height: 550px;
   width: 95%;
   margin-top: 20px;
+  border-radius: 12px;
 }
 
 .ConsularServices section {
-  background-color: #dee;
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
@@ -35,7 +43,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  max-width: 90%;
+  max-width: 80%;
   padding: 40px;
   margin: 20px;
   margin-top: -400px;

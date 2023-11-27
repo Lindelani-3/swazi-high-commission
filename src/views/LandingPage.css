@@ -1,0 +1,44 @@
+.landing-page {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: background-image 1s ease-out; /* Smoother transition for background change */
+    cursor: pointer; 
+    font-family: 'Roboto', sans-serif;
+    animation: zoomAnimation 10s infinite alternate ease-in-out;
+    transition: opacity 1s ease;
+    opacity: 1;
+}
+
+.landing-page.fade-out {
+    opacity: 0;
+}
+
+.welcome-section h1 {
+    font-size: 4em;
+    color: #fff;
+}
+  
+.welcome-section {
+    align-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    max-width: 90%;
+    padding: 40px;
+    margin: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.welcome-section:hover {
+  transform: translateY(-10px); /* Moves the tile up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+  
