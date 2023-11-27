@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
 .homepage {
-  width: 95%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  margin-top: 20px;
-  border-radius: 12px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  align-self: start;
-  justify-content: center;
-  text-align: center;
-  transition: background-image 1.3s ease-out;
-  cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  max-width: 91%;
 }
+
 
 .home-slider {
   border-radius: 15px;
+  object-fit: cover;
+  height: 550px;
+  width: 95%;
+  margin-top: 20px;
+  border-radius: 12px;
 }
+
 
 
 .background {
@@ -48,6 +46,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
+  position: relative;
   max-width: 80%;
   padding: 40px;
   margin: 20px;
