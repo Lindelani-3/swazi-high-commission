@@ -34,6 +34,7 @@ const HomePage = () => {
           </div>
         ))}
       </Slider>
+      <br></br>
       </div>
       <div className='opener'>
         <h2>Welcome to the Eswatini High Commission</h2>
