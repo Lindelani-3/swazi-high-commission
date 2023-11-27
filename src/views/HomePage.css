@@ -3,21 +3,49 @@
 
 
 .homepage {
-  width: 100vw;
+  width: 95%;
   height: 100vh;
   background-size: cover;
   background-position: center;
-  display: flex;
-  align-items: center;
+  margin-top: 20px;
+  border-radius: 12px;
+  display: inline-block;
+  align-self: start;
   justify-content: center;
   text-align: center;
-  transition: background-image 1s ease-out; /* Smoother transition for background change */
-  cursor: pointer; 
+  transition: background-image 1.3s ease-out;
+  cursor: pointer;
   font-family: 'Roboto', sans-serif;
 }
 
+.background {
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5); /* Darkening effect */
+}
+
+.welcome {
+  background-color: rgba(221, 238, 238, 0.8);
+}
+
 .welcome-message {
+  background-color: rgba(221, 238, 238, 0.1);
   align-self: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  max-width: 90%;
+  padding: 40px;
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.welcome-message:hover {
+  transform: translateY(-10px); /* Moves the tile up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Larger shadow for levitating effect */
 }
 
 .welcome-message h1 {
@@ -33,16 +61,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.homepage section {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  max-width: 90%;
-  padding: 40px;
-  margin: 30px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+
 
 .homepage section:hover {
   transform: translateY(-10px); /* Moves the tile up */
@@ -55,7 +74,7 @@
 }
 
 section {
-  background-color: #dee;
+  background-color: rgb(221, 238, 238);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -66,6 +85,7 @@ section {
   justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 section:hover {
   transform: translateY(-10px); /* Moves the tile up */

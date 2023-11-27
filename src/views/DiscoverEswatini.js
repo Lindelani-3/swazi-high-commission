@@ -4,14 +4,15 @@ import './DiscoverEswatini.css';
 import huts from './content/more huts.png';
 import culture from './content/culture-2.png';
 import sibebe from './content/sibebe.png';
+import backgroundImage from './content/background.png';
 
 
 function DiscoverEswatini() {
   return (
         <div className="DiscoverEswatini">
-        {/* <div className="image-mask"> */}
-          <img src={huts} alt="Discover Eswatini" />
-        {/* </div> */}
+        <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
+        <img src={huts} alt="Discover Eswatini" />
+        </div>
         <div className="opener">
           <h1>Discover Eswatini</h1>
           <p>Welcome to Eswatini! Explore the beauty, culture, and history of this magnificent kingdom. Dive into the adventures and find out what makes Eswatini unique.</p>
