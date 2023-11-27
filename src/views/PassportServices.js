@@ -2,9 +2,11 @@ import React from 'react';
 import './PassportServices.css';
 // import SidePanel from '../components/SidePanel';
 import passportImage from './content/ezulwini-proj.png';
+import backgroundImage from './content/background.png';
 
 function PassportServices() {
   return (
+    <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className="PassportServices">
       <img src={passportImage} alt="Passport Services" />
       <div className="opener">
@@ -34,6 +36,7 @@ function PassportServices() {
         <a href="/contact">Contact Information</a>
       </section>
       </div>
+    </div>
     </div>
   );
 }

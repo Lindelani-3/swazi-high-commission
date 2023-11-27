@@ -9,10 +9,10 @@ import backgroundImage from './content/background.png';
 
 function DiscoverEswatini() {
   return (
+      <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="DiscoverEswatini">
-        <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
         <img src={huts} alt="Discover Eswatini" />
-        </div>
+        
         <div className="opener">
           <h1>Discover Eswatini</h1>
           <p>Welcome to Eswatini! Explore the beauty, culture, and history of this magnificent kingdom. Dive into the adventures and find out what makes Eswatini unique.</p>
@@ -54,6 +54,7 @@ function DiscoverEswatini() {
         </section>
 
         </div>
+      </div>
       </div>
   );
 }

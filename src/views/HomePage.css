@@ -25,12 +25,25 @@
   background-color: rgba(0, 0, 0, 0.5); /* Darkening effect */
 }
 
-.welcome {
-  background-color: rgba(221, 238, 238, 0.8);
+.opener {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  max-width: 80%;
+  padding: 40px;
+  margin: 20px;
+  margin-top: -400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.opener:hover {
+  transform: translateY(-10px); /* Moves the tile up */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Larger shadow for levitating effect */
 }
 
 .welcome-message {
-  background-color: rgba(221, 238, 238, 0.1);
+  background-color: rgba(255, 255, 255, 0.5);
   align-self: center;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -71,10 +84,11 @@
 .homepage img {
   width: 100%;
   object-fit: cover;
+  height: 550px;
 }
 
 section {
-  background-color: rgb(221, 238, 238);
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;

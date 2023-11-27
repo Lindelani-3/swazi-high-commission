@@ -41,15 +41,12 @@ const HomePage = () => {
           </p> */}
         </div>
       </div>
-        <div className='hompage' >
-          <section  className='welcome'>
-              <div>
+              <div className='opener'>
                   {/* <h2>Section Title</h2> */}
                   <p>‘Sanibonani’ Welcome to the website of the High Commission of the Kingdom of Eswatini to South Africa. This site is the concierge to everything that you need to know about Eswatini, the High Commission and the neighbouring states that it is accredited to.
 
     We have organized information from the beautiful history and rich culture, to the adventure filled tourism industry. From trade and investment related reports and policies, to all the consular services you will require if you are traveling to the Kingdom. Feel free to browse through the visual splendor in our multimedia galleries. You are welcome to leave your comments and to connect with us on Twitter and Facebook.</p>
               </div>
-          </section>
 
           <section>
             <div className="text-container">
@@ -72,7 +69,6 @@ const HomePage = () => {
                 {/* More text or elements as needed */}
             </div>
           </section>
-          </div>
         </div>
     </div>
   );

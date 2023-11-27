@@ -1,11 +1,12 @@
 import React from 'react';
 import './ConsularServices.css';
-// import SidePanel from '../components/SidePanel';
 import servicesImage from './content/highway.png';
+import backgroundImage from './content/background.png';
 
 
 function ConsularServices() {
   return (
+    <div className='background' style={{ backgroundImage: `url(${backgroundImage})` }}>
     <div className="ConsularServices">
       <img src={servicesImage} alt="Consular Services" />
       <div className="opener">
@@ -32,7 +33,7 @@ function ConsularServices() {
         <a href="/contact">Contact Information</a>
       </section>
       </div>
-      {/* <SidePanel /> */}
+    </div>
     </div>
   );
 }
