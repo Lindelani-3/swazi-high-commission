@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/swazi-high-commission/static/css/main.218ea88e.css",
-    "main.js": "/swazi-high-commission/static/js/main.80e9b4ae.js",
+    "main.js": "/swazi-high-commission/static/js/main.1e5c4e40.js",
     "static/js/787.6c688d19.chunk.js": "/swazi-high-commission/static/js/787.6c688d19.chunk.js",
     "static/media/sibebe.webp": "/swazi-high-commission/static/media/sibebe.4983104db8dcf5d32c50.webp",
     "static/media/morehuts.webp": "/swazi-high-commission/static/media/morehuts.129dba9653c40d94d2b0.webp",
@@ -23,7 +23,6 @@
     "static/media/beehive.webp": "/swazi-high-commission/static/media/beehive.5298b506cf14022d9e14.webp",
     "static/media/mswati.webp": "/swazi-high-commission/static/media/mswati.d448977db8d2121038c6.webp",
     "static/media/airlink.webp": "/swazi-high-commission/static/media/airlink.29a62934fac6c5a967a2.webp",
-    "static/media/arms.webp": "/swazi-high-commission/static/media/arms.a34ec8ccdef2f042af71.webp",
     "static/media/placeholder-woman.webp": "/swazi-high-commission/static/media/placeholder-woman.22a4883ed388fbf4ef9d.webp",
     "static/media/slick.svg": "/swazi-high-commission/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/swazi-high-commission/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -31,11 +30,11 @@
     "static/media/slick.woff": "/swazi-high-commission/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/swazi-high-commission/index.html",
     "main.218ea88e.css.map": "/swazi-high-commission/static/css/main.218ea88e.css.map",
-    "main.80e9b4ae.js.map": "/swazi-high-commission/static/js/main.80e9b4ae.js.map",
+    "main.1e5c4e40.js.map": "/swazi-high-commission/static/js/main.1e5c4e40.js.map",
     "787.6c688d19.chunk.js.map": "/swazi-high-commission/static/js/787.6c688d19.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.218ea88e.css",
-    "static/js/main.80e9b4ae.js"
+    "static/js/main.1e5c4e40.js"
   ]
 }
