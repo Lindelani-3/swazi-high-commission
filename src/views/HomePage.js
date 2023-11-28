@@ -13,7 +13,6 @@ import ngwenya from './content/ngwenya-lodge-2.webp';
 import phopho from './content/phophonyane.webp';
 import beehive from './content/beehive.webp';
 import highway from './content/highway.webp';
-import loader from './content/arms.webp'
 
 const HomePage = () => {
   const images = useMemo(() => [
@@ -48,7 +47,7 @@ const HomePage = () => {
 
   if (!areImagesLoaded) {
     return <div className='loading'>
-      <img src={loader} alt='loader' className='home-slider'/>
+      Loading...
     </div>;
   }
 
