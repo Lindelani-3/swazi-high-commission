@@ -71,7 +71,6 @@ const HomePage = () => {
       </div>
       <section>
         <div className="text-container">
-          {/* <h2>Section Title</h2> */}
           <p>The Emaswati people, originally known as the Bembo-Nguni, trace their origins to Embu in Kenya. Migrating south under Dlamini, they settled near Mozambique's Maputo River. In the mid-18th century, the Dlamini group entered present-day Eswatini, naming themselves bakaNgwane and their new home kaNgwane. The Kingdom of Eswatini, a landlocked Southern African country, lies between Mozambique and South Africa. 
             </p>
         </div>
