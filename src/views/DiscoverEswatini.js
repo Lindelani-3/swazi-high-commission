@@ -3,8 +3,11 @@ import './DiscoverEswatini.css';
 import huts from './content/morehuts.webp';
 import culture from './content/culture-2.webp';
 import king from './content/mswati.webp';
-import queen from './content/queen.png';
+import queen from './content/queen.webp';
+import map_pol from './content/map.webp'
+import map_phy from './content/map-2.webp'
 import backgroundImage from './content/background.webp';
+
 
 
 function DiscoverEswatini() {
@@ -54,6 +57,25 @@ function DiscoverEswatini() {
             <div className="text-container">
                 <h2>HER MAJESTY INDLOVUKAZI</h2>
                 <p>Her Majesty the Queen Mother (Indlovukazi) of the Kingdom of Eswatini has been the Indlovukazi (Great She-Elephant) since 1986. She was born Ntombi Tfwala and she is the Mother to His Majesty, King Mswati III. As per Emaswati custom, Her Majesty became Queen Mother when His Majesty King Mswati III was crowned as king of Eswatini. Prior to that, the Queen Mother was Regent of Eswatini from 1983 until 1986. In essence, the “Indlovukazi” is the Mother of the Emaswati nation, and as part of her traditional role, she rules together with His Majesty the King.</p>
+            </div>
+        </section>
+
+        <section>
+            <div className="text-container">
+                <h2>LAND OF THE SWAZIS</h2>
+                <p>"Live lemaSwati. Land of the Swazis." Eswatini, the second smallest country in Africa after The Gambia, is nestled between Mozambique and South Africa. Spanning 17,363 square kilometers, it's comparable in size to New Jersey, USA, and Wales, UK. The nation features a diverse geography, from the mountainous Highveld in the west, with its rivers and waterfalls, to the lush, fertile valleys of the subtropical Middleveld, and the wildlife-rich Lowveld. Additionally, the Lubombo Plateau borders Mozambique and showcases a subtropical climate. Known as “the Switzerland of Africa” for its stunning mountain scenery, Eswatini encompasses a range of African terrains, except for a desert, within its modest area.</p>
+            </div>
+        </section>
+        <section>
+            <div className="image-container">
+              <a href="https://www.worldometers.info/maps/swaziland-political-map/" target="_blank" rel="noopener noreferrer">
+                <img src={map_pol} alt="Swaziland Political Map" />
+              </a>
+            </div>
+            <div className="image-container">
+              <a href="https://www.worldometers.info/maps/swaziland-map/" target="_blank" rel="noopener noreferrer">
+                <img src={map_phy} alt="Swaziland Physical Map" />
+              </a>
             </div>
         </section>
 

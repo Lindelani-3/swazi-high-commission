@@ -1,6 +1,6 @@
 import React from 'react';
 import './ConsularServices.css';
-import servicesImage from './content/highway.png';
+import servicesImage from './content/highway.webp';
 import backgroundImage from './content/background.webp';
 
 
