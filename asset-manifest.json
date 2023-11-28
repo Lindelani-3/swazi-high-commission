@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/swazi-high-commission/static/css/main.3c9b733f.css",
+    "main.css": "/swazi-high-commission/static/css/main.a32a5464.css",
     "main.js": "/swazi-high-commission/static/js/main.0ea32862.js",
     "static/js/787.6c688d19.chunk.js": "/swazi-high-commission/static/js/787.6c688d19.chunk.js",
     "static/media/sibebe.webp": "/swazi-high-commission/static/media/sibebe.4983104db8dcf5d32c50.webp",
@@ -29,12 +29,12 @@
     "static/media/slick.ttf": "/swazi-high-commission/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/swazi-high-commission/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/swazi-high-commission/index.html",
-    "main.3c9b733f.css.map": "/swazi-high-commission/static/css/main.3c9b733f.css.map",
+    "main.a32a5464.css.map": "/swazi-high-commission/static/css/main.a32a5464.css.map",
     "main.0ea32862.js.map": "/swazi-high-commission/static/js/main.0ea32862.js.map",
     "787.6c688d19.chunk.js.map": "/swazi-high-commission/static/js/787.6c688d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c9b733f.css",
+    "static/css/main.a32a5464.css",
     "static/js/main.0ea32862.js"
   ]
 }
