@@ -54,7 +54,7 @@ const HomePage = () => {
   return (
     <div className="background" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className='homepage'>
-      <Slider {...settings}>
+      <Slider {...settings} className='slider-m'>
         {images.map((image, index) => (
           <div key={index} style={{ height: '100vh' }}>
             <img src={image} alt={`Slide ${index + 1}`} className='home-slider'/>

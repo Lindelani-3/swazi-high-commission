@@ -1,6 +1,6 @@
 .landing-page {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100%;
+    min-height: 100vh;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,4 +41,13 @@
   transform: translateY(-10px); /* Moves the tile up */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
+
+
+
+@media (max-width: 768px) {
+    .welcome-section h1 {
+        font-size: 2em;
+    }
+}
+
   

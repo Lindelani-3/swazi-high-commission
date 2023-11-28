@@ -52,4 +52,20 @@
 }
 
 
+
+@media (max-width: 768px) {
+
+  section {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .opener {
+    max-width: 60%;
+    margin-top: -200px;
+  }
+}
+
+
   
