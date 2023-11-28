@@ -141,7 +141,6 @@
     }
 
     .logo, .nav-links, .dropdown {
-      width: 80%; /* Full width for all navbar items */
       display: flex;
       /* flex-direction: column; */
       align-content: center;
@@ -166,10 +165,10 @@
     display: inline-block;
     justify-content: center;
     padding-bottom: 20px;
+    position: relative;
   }
 
   .logo, .nav-links, .dropdown {
-    width: 70%;
     display: inline-block;
     flex-direction: column;
   }
