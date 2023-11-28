@@ -94,9 +94,9 @@
 /* Responsive adjustments if necessary */
 @media (max-width: 768px) {
   .footer-container {
-    display: inline-flex;
+    display: inline-block;
     flex-direction: column;
-    max-width: 90%;
+    width: 100%;
   }
 
   .footer-bottom {
