@@ -61,3 +61,38 @@ function NavigationBar() {
 }
 
 export default NavigationBar;
+
+
+
+// import React, { useState } from 'react';
+// import { Link } from 'react-router-dom';
+// import './NavigationBar.css';
+// import logoImage from './content/Coat_of_arms_of_Eswatini.svg_.png'; 
+
+// function NavigationBar() {
+//   const [isConsularDropdownOpen, setIsConsularDropdownOpen] = useState(false);
+//   const [isDepartmentsDropdownOpen, setIsDepartmentsDropdownOpen] = useState(false);
+//   const [isDiscoverDropdownOpen, setIsDiscoverDropdownOpen] = useState(false);
+
+//   return (
+//     <div className="navbar" role="navigation">
+//       {/* ... other content ... */}
+//       <div className="nav-links">
+//         <Link to="/home">Home</Link>
+
+//         <div className="dropdown" onClick={() => setIsDiscoverDropdownOpen(!isDiscoverDropdownOpen)}>
+//           <span>Discover Eswatini</span>
+//           {isDiscoverDropdownOpen && (
+//             <div className="dropdown-content">
+//               {/* Dropdown contents */}
+//             </div>
+//           )}
+//         </div>
+
+//         {/* ... other dropdowns ... */}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default NavigationBar;

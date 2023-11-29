@@ -58,7 +58,7 @@
 
 
 .ConsularServices a {
-  color: #1E49A6;
+  color: #ecf0f1;
   text-decoration: none;
 }
 
@@ -75,3 +75,29 @@
   margin-bottom: 10px;
 }
 
+
+/* ... existing styles ... */
+
+.button-text {
+  background-color:azure;
+}
+
+.button {
+  background-color: #34495e; /* Dark Blue from footer */
+  color: #ecf0f1; /* Light text color from footer */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  margin: 10px 2px;
+}
+
+.button:hover {
+  background-color: rgb(43, 61, 80); /* Slightly darker blue on hover */
+  color: #bdc3c7; /* Darker text color on hover */
+}

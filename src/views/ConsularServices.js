@@ -18,19 +18,20 @@ function ConsularServices() {
       <section>
         <h2>Visa Services</h2>
         <p>Find information about visa requirements, application processes, and fees for traveling to Eswatini.</p>
-        <a href="/consular-services/visa-information">Learn More</a>
+        
+        <a href="/consular-services/visa-information" className="button">Learn More</a>
       </section>
 
       <section>
         <h2>Passport Services</h2>
         <p>Information on how to apply for, renew, or replace a Swaziland passport.</p>
-        <a href="/consular-services/passport-services">Learn More</a>
+        <a href="/consular-services/passport-services" className="button">Learn More</a>
       </section>
 
       <section>
         <h2>Contact Us</h2>
         <p>If you have any questions or need further assistance, please do not hesitate to contact us.</p>
-        <a href="/contact">Contact Information</a>
+        <a href="/contact" className="button">Contact Information</a>
       </section>
       </div>
     </div>
