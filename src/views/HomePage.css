@@ -7,6 +7,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: inline-block;
   max-width: 91%;
+  align-content: center;
+  justify-content: center;
 }
 
 
@@ -109,9 +111,9 @@ section {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  display: flex;
+  display: inline-flex;
   max-width: 90%;
-  padding: 40px;
+  padding: 10px;
   margin: 30px;
   align-items: center;
   justify-content: center;
@@ -131,7 +133,6 @@ section:hover {
 }
 
 .image-container img {
-  max-width: 80%;
   height: auto; /* Keeps the aspect ratio of the image */
   object-fit: cover; /* Ensures the image covers the area without stretching */
   border-radius: 10px;
