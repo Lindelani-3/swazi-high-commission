@@ -2,9 +2,14 @@
 
 Welcome to the official repository of the Swazi High Commission website. This website serves as a portal for information related to Eswatini (formerly Swaziland), offering various consular services, cultural insights, and essential contacts.
 
-## Preview
+## Initial Design
 
 ![high-commission-export 2](https://github.com/Lindelani-3/swazi-high-commission/assets/99859713/99855ce4-3c2e-4cad-a608-e6fd362f7d28)
+
+
+## Final Preview
+
+https://github.com/Lindelani-3/swazi-high-commission/assets/99859713/b005cf1d-4ada-4c7e-804f-35f0b2deee85
 
 
 
