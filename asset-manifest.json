@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/swazi-high-commission/static/css/main.d037dc21.css",
-    "main.js": "/swazi-high-commission/static/js/main.8a688e2d.js",
+    "main.css": "/swazi-high-commission/static/css/main.e1167f1e.css",
+    "main.js": "/swazi-high-commission/static/js/main.ecc5345a.js",
     "static/js/787.6c688d19.chunk.js": "/swazi-high-commission/static/js/787.6c688d19.chunk.js",
     "static/media/sibebe.webp": "/swazi-high-commission/static/media/sibebe.4983104db8dcf5d32c50.webp",
     "static/media/morehuts.webp": "/swazi-high-commission/static/media/morehuts.129dba9653c40d94d2b0.webp",
@@ -17,24 +17,26 @@
     "static/media/mbabane.webp": "/swazi-high-commission/static/media/mbabane.78d6b2f530f5640a65d0.webp",
     "static/media/malolotja.webp": "/swazi-high-commission/static/media/malolotja.60e03eb96f724e43bc23.webp",
     "static/media/culture-2.webp": "/swazi-high-commission/static/media/culture-2.99a9f72c8d633418dce0.webp",
-    "static/media/high commission pretoria.webp": "/swazi-high-commission/static/media/high commission pretoria.54a145ad241ec50435d0.webp",
+    "static/media/highcommission.webp": "/swazi-high-commission/static/media/highcommission.54a145ad241ec50435d0.webp",
     "static/media/Coat_of_arms_of_Eswatini.svg_.png": "/swazi-high-commission/static/media/Coat_of_arms_of_Eswatini.svg_.6af254fd697b9ed140be.png",
     "static/media/ngwenya-lodge-2.webp": "/swazi-high-commission/static/media/ngwenya-lodge-2.dfe3c41389585c071bcd.webp",
     "static/media/beehive.webp": "/swazi-high-commission/static/media/beehive.5298b506cf14022d9e14.webp",
     "static/media/mswati.webp": "/swazi-high-commission/static/media/mswati.d448977db8d2121038c6.webp",
     "static/media/airlink.webp": "/swazi-high-commission/static/media/airlink.29a62934fac6c5a967a2.webp",
+    "static/media/ehc-2.webp": "/swazi-high-commission/static/media/ehc-2.363f2804391efab3ecdc.webp",
+    "static/media/ehc-1.webp": "/swazi-high-commission/static/media/ehc-1.f62a29de6bde21e84edb.webp",
     "static/media/placeholder-woman.webp": "/swazi-high-commission/static/media/placeholder-woman.22a4883ed388fbf4ef9d.webp",
     "static/media/slick.svg": "/swazi-high-commission/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/swazi-high-commission/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/swazi-high-commission/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/swazi-high-commission/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/swazi-high-commission/index.html",
-    "main.d037dc21.css.map": "/swazi-high-commission/static/css/main.d037dc21.css.map",
-    "main.8a688e2d.js.map": "/swazi-high-commission/static/js/main.8a688e2d.js.map",
+    "main.e1167f1e.css.map": "/swazi-high-commission/static/css/main.e1167f1e.css.map",
+    "main.ecc5345a.js.map": "/swazi-high-commission/static/js/main.ecc5345a.js.map",
     "787.6c688d19.chunk.js.map": "/swazi-high-commission/static/js/787.6c688d19.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d037dc21.css",
-    "static/js/main.8a688e2d.js"
+    "static/css/main.e1167f1e.css",
+    "static/js/main.ecc5345a.js"
   ]
 }
