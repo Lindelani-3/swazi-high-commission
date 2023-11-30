@@ -13,10 +13,12 @@ import ngwenya from './content/ngwenya-lodge-2.webp';
 import phopho from './content/phophonyane.webp';
 import beehive from './content/beehive.webp';
 import highway from './content/highway.webp';
+import highcomm_1 from './content/ehc-1.webp';
+import highcomm_3 from './content/highcommission.webp';
 
 const HomePage = () => {
   const images = useMemo(() => [
-    malolotja, eswatini, ezulwini, sibebe, phopho, highway, ngwenya
+    highcomm_3, malolotja, eswatini, ezulwini, sibebe, phopho, highcomm_1, highway, ngwenya
   ], []);
   const [areImagesLoaded, setAreImagesLoaded] = useState(false);
 
