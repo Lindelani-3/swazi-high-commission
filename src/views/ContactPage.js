@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactPage.css';
-import contactImage from './content/high commission pretoria.webp';
+import contactImage from './content/ehc-2.webp';
 import backgroundImage from './content/background.webp';
 import placeholder from './content/placeholder-woman.webp'
 

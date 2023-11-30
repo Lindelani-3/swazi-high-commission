@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './LandingPage.css'; 
-import huts from './content/morehuts.webp';
-import malolotja from './content/malolotja.webp';
-import eswatini from './content/eswatini.webp';
-import sibebe from './content/sibebe.webp';
+// import huts from './content/morehuts.webp';
+// import malolotja from './content/malolotja.webp';
+// import eswatini from './content/eswatini.webp';
+import highcomm_1 from './content/ehc-1.webp';
+import highcomm_2 from './content/ehc-2.webp';
+import highcomm_3 from './content/highcommission.webp';
 
 function LandingPage() {
     const navigate = useNavigate();
@@ -15,7 +17,7 @@ function LandingPage() {
         setTimeout(() => navigate('/home'), 1000); // Delay navigation
     };
 
-    const images = [malolotja, eswatini, huts, sibebe];
+    const images = [highcomm_3, highcomm_1, highcomm_2];
     const [currentImage, setCurrentImage] = useState(0);
 
     const changeImage = useCallback(() => {
